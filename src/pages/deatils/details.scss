@@ -1,0 +1,93 @@
+html {
+  overflow-x: hidden;
+}
+.details {
+  padding: 5rem;
+  width: 80%;
+  h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  p {
+    width: 80%;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-weight: 500;
+    line-height: 2rem;
+  }
+  b {
+    color: lightblue;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+  .b {
+    margin-left: 2rem;
+  }
+}
+.comments {
+  width: 60%;
+  padding-left: 5rem;
+  .comment {
+    margin-top: 4rem;
+    img {
+      margin-right: 2rem;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+}
+
+.recomendetVideos {
+  margin-top: -738rem;
+  margin-right: 24rem;
+  .rcvideos {
+    margin-bottom: 3rem;
+    h2 {
+      width: 15rem;
+    }
+  }
+  h3 {
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+/* Add your CSS styles here */
+.comments {
+  padding: 10px;
+  margin: 20px;
+}
+
+.comment2 {
+  width: 30rem;
+}
+.comments input[type="text"] {
+  width: 400px;
+  padding: 5px;
+  margin-right: 10px;
+}
+.commenPhar {
+  margin: 1rem;
+  // margin-left: 3rem;
+  // margin-bottom: -4rem;
+  font-size: 1.5rem;
+}
+.comments button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-top: 1rem;
+  &:nth-child(2) {
+    margin-left: 3rem;
+  }
+}
+
+.flex-class {
+  align-items: center;
+  .myImg {
+    margin-left: -3rem;
+    border-radius: 50%;
+    width: 5.5rem;
+  }
+}
